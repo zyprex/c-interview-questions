@@ -1,11 +1,11 @@
 #include <stdio.h>
 #define ARRL(X) sizeof(X)/sizeof(*X)
 /*
-   [0...len-2]
-        [1...len-1]
-        [2...len-1]
-        [3...len-1]
-        [len-2...len-1]
+   [0...                            len-2]
+        [1...                len-1]
+            [2...            len-1]
+                [3...        len-1]
+                    [len-2...len-1]
 */
 void selectsort(int s[], int len)
 {
