@@ -1,3 +1,6 @@
+/*
+ * size .bss
+ */
 #define A 0
 
 #ifdef _WIN64 ///////////// mingw64
